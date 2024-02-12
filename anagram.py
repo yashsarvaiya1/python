@@ -6,4 +6,4 @@ def anagram(s1:str,s2:str):
     else:
         return Counter(s1) == Counter(s2)
     
-print(anagram("danger","garden"))
+print(anagram("142","241"))
